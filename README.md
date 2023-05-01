@@ -37,12 +37,12 @@ Here is some pictures of the prototyped system.
 
 
 **IoT web app:**    
-     ![webpage](Screenshot (1735).png)
-     ![webpage](Screenshot (1740).png)
-     ![webpage](Screenshot (1736).png)
-     ![webpage](Screenshot (1737).png)
-     ![webpage](Screenshot (1738).png)
-     ![webpage](Screenshot (1739).png)
+     ![webpage1](s1.png)
+     ![webpage2](s3.png)
+     ![webpage3](s2.png)
+     ![webpage4](s4.png)
+     ![webpage5](s5.png)
+     ![webpage6](s6.png)
 
 
  
