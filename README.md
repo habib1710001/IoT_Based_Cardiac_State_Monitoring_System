@@ -24,9 +24,9 @@
 
 **Circuit Layout:**  
 Here is the circuit layout and the PCB Design of the electronic system.  
-![layout](ecgIoT_bb.jpg)
-![PCBTOP](ECG_TOP.png)
-![PCBBOTTOM](ECG_BOTTOM.png)
+<img src="ecgIoT_bb.jpg" alt="schematic" width="50%" />
+<img src="ECG_TOP.png" alt="top_Layout" width="50%" />
+<img src="ECG_BOTTOM.png" alt="bottom_Layout" width="50%" />
 
 
 
