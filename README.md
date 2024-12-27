@@ -1,48 +1,49 @@
-# IoT_Based_Cardiac_State_Monitoring_System
+# IoT-Based Cardiac State Monitoring System
 
- **Description:**  
-    The idea behind this project is to automate the Electrocardiogram,to make monitoring easy.That will reduce the human effort in Cardiac State Monitoring and will make healthcare possible in remote countryside.
+**Project Overview:**  
+This project aims to automate Electrocardiogram (ECG) monitoring, reducing human effort in cardiac health assessment and enabling remote healthcare solutions, especially in rural areas.
 
+---
 
-**Hardware Specifications:**
+### **Hardware Specifications**
 
-* **Sensing**: Basically six types of sensors used in monitoring the water.medium and environment. These are:
-   1. ESP-32(Doit esp32 devkit v1 board): It’s a really high quality SoC(system on chip) with Xtensa dual-core 32-bit LX6 microprocessor, operating at 160 or 240 MHz and performing at up to 600 DMIPS including a Ultra low power (ULP) co-processor.
-   1. AD8232:  AD8232 ECG Module integrated with AD8232 IC from Analog Devices, which is a single-chip designed to extract, amplify, and filter bio-potential signals for bio-potential measurement applications (like ECG and others). ECGs can be extremely noisy so that the AD8232 Single Lead Heart Rate Monitor acts as an op-amp to help obtain a clear signal from the PR and QT Intervals easily. 
-   1. ADS1115: It’s a 16-Bit ADC - 4 Channel with Programmable Gain Amplifier. That contains programmable data rate (8SPS to 860SPS). Arduino Nano is replaced by this because this is a dedicated ADC, that has higher bit resolution and configurable sample rate. 
-   1. SD Card Module: It’s used to store the data in offline for analysis purpose.
-   1. OLED display:  The OLED display is used for displaying the  ECG signal and BPM that is used as confirmation device working.
+1. **ESP32 (Doit ESP32 Devkit v1)**: High-performance SoC featuring a dual-core 32-bit LX6 microprocessor (160/240 MHz) with ultra-low power co-processor.  
+2. **AD8232 ECG Module**: Extracts, amplifies, and filters bio-potential signals for clear ECG signal acquisition.  
+3. **ADS1115**: 16-bit ADC with 4 channels and a programmable gain amplifier for high-resolution signal conversion.  
+4. **SD Card Module**: Stores offline data for analysis.  
+5. **OLED Display**: Displays real-time ECG signals and BPM.
 
+---
 
-**Embedded Systems Informations:**
+### **Embedded System Details**
 
-   1. Hardware: A high performance microprocessor is used with a very precise ADC (Analog to Digital Converter). And also a simple user interface with two mode (Analysis mode, IoT mode) will be included in recent.
-   1. Software: In software we have used RTOS (Real Time Operating System) that includes a very precise task scheduling and memory management .Through that we can read the data of ECG, we can control the user interface and also we can interact with the cloud server in real time. That makes the embedded system more precise and fast.
+- **Hardware**: High-performance microprocessor with precise ADC. Includes a user interface supporting two modes: Analysis Mode and IoT Mode.  
+- **Software**: Utilizes RTOS (Real-Time Operating System) for precise task scheduling and memory management. Functions include real-time ECG data acquisition, user interface control, and cloud server interaction for IoT functionality.
 
-**Work Flow:**    
-     ![work flow](workflow.png)   
+---
 
-**Circuit Layout:**  
-Here is the circuit layout and the PCB Design of the electronic system.  
-<img src="ecgIoT_bb.jpg" alt="schematic" width="50%" />
-<img src="ECG_TOP.png" alt="top_Layout" width="50%" />
-<img src="ECG_BOTTOM.png" alt="bottom_Layout" width="50%" />
+### **Workflow**  
+<img src="workflow.png" alt="Workflow" width="50%" />
 
+---
 
+### **Circuit Layout**  
+<img src="ecgIoT_bb.jpg" alt="Schematic" width="50%" />  
+<img src="ECG_TOP.png" alt="Top Layout" width="50%" />  
+<img src="ECG_BOTTOM.png" alt="Bottom Layout" width="50%" />  
 
-**Prototype View:**   
-Here is some pictures of the prototyped system.  
-![sys1](System_View.jpeg)
-![device](Device_Picture.jpeg)
+---
 
+### **Prototype View**  
+<img src="System_View.jpeg" alt="System View" width="50%" />  
+<img src="Device_Picture.jpeg" alt="Device Picture" width="50%" />  
 
-**IoT web app:**    
-     ![webpage1](s1.png)
-     ![webpage2](s3.png)
-     ![webpage3](s2.png)
-     ![webpage4](s4.png)
-     ![webpage5](s5.png)
-     ![webpage6](s6.png)
+---
 
-
- 
+### **IoT Web Application**  
+Web interface for real-time monitoring:  
+<img src="s1.png" alt="Webpage 1" width="50%" />  
+<img src="s2.png" alt="Webpage 2" width="50%" />  
+<img src="s3.png" alt="Webpage 3" width="50%" />  
+<img src="s4.png" alt="Webpage 4" width="50%" />  
+<img src="s5.png" alt="Webpage 5" width="50%" />  
