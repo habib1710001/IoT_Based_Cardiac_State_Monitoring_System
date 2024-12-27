@@ -28,15 +28,18 @@ This project aims to automate Electrocardiogram (ECG) monitoring, reducing human
 ---
 
 ### **Circuit Layout**  
-<img src="ecgIoT_bb.jpg" alt="Schematic" width="50%" />  
-<img src="ECG_TOP.png" alt="Top Layout" width="50%" />  
-<img src="ECG_BOTTOM.png" alt="Bottom Layout" width="50%" />  
+<div style="display: flex; justify-content: space-around;">
+  <img src="ECG_TOP.png" alt="Top Layout" width="45%" />
+  <img src="ECG_BOTTOM.png" alt="Bottom Layout" width="45%" />
+</div>
 
 ---
 
 ### **Prototype View**  
-<img src="System_View.jpeg" alt="System View" width="50%" />  
-<img src="Device_Picture.jpeg" alt="Device Picture" width="50%" />  
+<div style="display: flex; justify-content: space-around;">
+  <img src="System_View.jpeg" alt="System View" width="45%" />
+  <img src="Device_Picture.jpeg" alt="Device Picture" width="45%" />
+</div>
 
 ---
 
